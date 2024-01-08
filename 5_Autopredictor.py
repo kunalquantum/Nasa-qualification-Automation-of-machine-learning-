@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
@@ -93,12 +92,12 @@ if uploaded_file is not None:
                 st.header("Histograms")
                 st.write("Histogram of Target Variable:")
                 plt.figure(figsize=(8, 6))
-                sns.histplot(y, kde=True)
+                plt.hist(y, bins=30, color='blue', alpha=0.7)
                 st.pyplot()
 
                 st.write(f"Histogram of Dependent Variable ({dependent_column[0]}):")
                 plt.figure(figsize=(8, 6))
-                sns.histplot(data[dependent_column[0]], kde=True)
+                plt.hist(data[dependent_column[0]], bins=30, color='green', alpha=0.7)
                 st.pyplot()
 
             except ValueError:
@@ -130,12 +129,12 @@ if uploaded_file is not None:
                     st.header("Histograms")
                     st.write("Histogram of Target Variable:")
                     plt.figure(figsize=(8, 6))
-                    sns.histplot(y, kde=True)
+                    plt.hist(y, bins=30, color='blue', alpha=0.7)
                     st.pyplot()
 
                     st.write(f"Histogram of Dependent Variable ({dependent_column[0]}):")
                     plt.figure(figsize=(8, 6))
-                    sns.histplot(data[dependent_column[0]], kde=True)
+                    plt.hist(data[dependent_column[0]], bins=30, color='green', alpha=0.7)
                     st.pyplot()
 
                 except ValueError:

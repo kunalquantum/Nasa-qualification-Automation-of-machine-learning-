@@ -3,12 +3,13 @@ This project is an automated machine learning framework designed to streamline t
 
 
 https://github.com/user-attachments/assets/7c3307d7-dd22-478d-9168-edbb0fa0ee95
-                     **Automated Model Training**
 
-**Features**
-
+**Automated Model Training**
 + Automated Model Training:
 Intelligent selection and training of regression and classification models, tailored to the specific characteristics of your dataset.
+
+
+
 
 + Ensemble Learning Comparisons:
 Evaluate the performance of various ensemble learning techniques to identify the optimal model for your data.

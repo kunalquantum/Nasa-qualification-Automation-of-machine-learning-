@@ -3,7 +3,7 @@ This project is an automated machine learning framework designed to streamline t
 
 
 https://github.com/user-attachments/assets/7c3307d7-dd22-478d-9168-edbb0fa0ee95
-
+                     **Automated Model Training**
 
 **Features**
 

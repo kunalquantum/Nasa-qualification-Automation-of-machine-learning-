@@ -9,6 +9,12 @@ https://github.com/user-attachments/assets/7c3307d7-dd22-478d-9168-edbb0fa0ee95
 Intelligent selection and training of regression and classification models, tailored to the specific characteristics of your dataset.
 
 
+https://github.com/user-attachments/assets/c8dfbccb-8572-496f-8ee7-59b89f24c828
+
+**Automated Clustering**
+features 6 clustering algorithms to choose from along with selecting the number of clusters also 
+
+
 
 
 + Ensemble Learning Comparisons:
